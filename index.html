@@ -1,101 +1,26 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Агро Перебиківці</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Агро Перебиківці</h1>
-    <p>Якісні товари для вашого господарства</p>
-  </header>
-  
-  <nav>
-    <a href="#home">Головна</a>
-    <a href="#catalog">Каталог</a>
-    <a href="#order">Замовлення</a>
-    <a href="#about">Про нас</a>
-    <a href="#contacts">Контакти</a>
-  </nav>
-
-  <section class="section" id="home">
-    <h2>Ласкаво просимо до "Агро Перебиківці"</h2>
-    <p>У нас ви знайдете все необхідне для сільського господарства — насіння, добрива, засоби захисту рослин та інше.</p>
-  </section>
-
-  <section class="section promo" id="promo">
-    <h2>🎉 Акції та знижки</h2>
-    <ul>
-      <li>🔖 При купівлі 3-х упаковок насіння — знижка 10%</li>
-      <li>🚛 Безкоштовна доставка при замовленні від 1500 грн</li>
-      <li>💥 Спеціальна ціна на Пекінську капусту — лише 120 грн до кінця місяця!</li>
-    </ul>
-  </section>
-
-  <section class="section" id="catalog">
-    <h2>Каталог товарів</h2>
-    <div class="products">
-      <div class="product">
-        <img src="https://via.placeholder.com/250x150" alt="Товар 1">
-        <h3>Насіння кукурудзи</h3>
-        <p>Ціна: 500 грн</p>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/250x150" alt="Товар 2">
-        <h3>Добриво NPK</h3>
-        <p>Ціна: 700 грн</p>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/250x150" alt="Товар 3">
-        <h3>ЗЗР проти шкідників</h3>
-        <p>Ціна: 320 грн</p>
-      </div>
-      <div class="product">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chinesecabbage.jpg/320px-Chinesecabbage.jpg" alt="Пекінська капуста">
-        <h3>Пекінська капуста</h3>
-        <p>Ціна: 150 грн</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="order">
-    <h2>Форма замовлення</h2>
-    <form onsubmit="alert('Замовлення відправлено! Дякуємо!'); return false;">
-      <label for="name">Ім'я:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="phone">Телефон:</label>
-      <input type="tel" id="phone" name="phone" required placeholder="+380...">
-
-      <label for="product">Оберіть товар:</label>
-      <select id="product" name="product" required>
-        <option value="">-- Виберіть --</option>
-        <option>Насіння кукурудзи</option>
-        <option>Добриво NPK</option>
-        <option>ЗЗР проти шкідників</option>
-        <option>Пекінська капуста</option>
-      </select>
-
-      <button type="submit">Замовити</button>
-    </form>
-  </section>
-
-  <section class="section" id="about">
-    <h2>Про нас</h2>
-    <p>Магазин "Агро Перебиківці" працює вже понад 10 років та надає тільки сертифіковану продукцію для аграріїв. Наша мета — підтримка вашого врожаю та розвитку села!</p>
-  </section>
-
-  <section class="section" id="contacts">
-    <h2>Контакти</h2>
-    <p>Телефон: <a href="tel:+380961112233">+38 (096) 111-22-33</a></p>
-    <p>Адреса: с. Перебиківці, вул. Центральна, 1</p>
-    <a class="contact-button" href="tel:+380961112233">Зателефонувати</a>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Агро Перебиківці. Всі права захищено.</p>
-  </footer>
+    <header>
+        <h1>Agro Shop</h1>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="products.html">Товари</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Ласкаво просимо до Agro Shop!</h2>
+        <p>Ваш надійний партнер у світі агропродукції.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Agro Shop</p>
+    </footer>
 </body>
 </html>
